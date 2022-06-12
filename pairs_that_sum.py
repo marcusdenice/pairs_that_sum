@@ -14,7 +14,7 @@ def pairs_that_sum(arr, target_sum):
     # initialize pair list
     pairs = []
 
-    # loop over arr and sum each pair
+    # loop over arr and check if pair sum will match target_sum
     n = len(arr)
     for i in range(0, n):
         for j in range(0, n):
